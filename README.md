@@ -3,6 +3,8 @@ proxy-agent
 ### Maps proxy protocols to `http.Agent` implementations
 [![Build Status](https://travis-ci.org/TooTallNate/node-proxy-agent.svg?branch=master)](https://travis-ci.org/TooTallNate/node-proxy-agent)
 
+_A quick & temporary fork of the proxy-agent package to deploy a [DNS lookup fix](https://github.com/TooTallNate/node-socks-proxy-agent/pull/72) in [HTTP Toolkit](https://httptoolkit.tech)_
+
 This module provides a function that returns proxying `http.Agent` instances to
 use based off of a given proxy URI. If no URI is provided, then
 [proxy-from-env](https://www.npmjs.com/package/proxy-from-env) is used to get the URI

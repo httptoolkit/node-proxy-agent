@@ -16,7 +16,7 @@ var https = require('https');
 var PacProxyAgent = require('pac-proxy-agent');
 var HttpProxyAgent = require('http-proxy-agent');
 var HttpsProxyAgent = require('https-proxy-agent');
-var SocksProxyAgent = require('socks-proxy-agent');
+var SocksProxyAgent = require('@httptoolkit/socks-proxy-agent');
 
 /**
  * Module exports.
